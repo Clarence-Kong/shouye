@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    position: relative;
+    color: aliceblue;
+    font-size:.8rem;
+}
+.outframe1{
+    width: 100vw;
+    height: 100vh;
+    background-image: url("blue.jpg");
+}
+span.mid {
+    position: absolute;
+    top: 45%;
+    padding: 0 15%;
+}
+span.bottom{
+    position: absolute;
+    bottom: -2em;
+    left: -16%;
+    padding: 0 5px;
+}
+img.bottom,.top{
+    width: 20vw;
+    max-width: 50px;
+    height: auto;
+}
+img.tit{
+    width: 50vw;
+    max-width: 150px;
+    height: auto;
+}
+.title{
+    position: absolute;
+    width: auto;
+    top: 20%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.hight{
+    position: absolute;
+    left: .2rem;
+    top: .2rem;
+}
+.checkout-l{
+    position: absolute;
+    left: 15%;
+    top: 80%
+}
+.checkout-r{
+    position: absolute;
+    top: 80%;
+    right: 15%
+}
+.checkout-l,.checkout-r{
+    width: auto;
+    height: auto;
+}

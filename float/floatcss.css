@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.outerframe{
+    width: 100vw;
+    height: 100vh;
+ }
+.box{
+    float: left;
+    width: 87vw;
+    margin-left: 50%;
+    transform: translateX(-50%);
+}
+.inblock{
+    float: left;
+    width: 25vw;
+    height: 25vw;
+    margin: 2vw;
+    background-color: orange;
+    border-radius: 5vw;
+}
